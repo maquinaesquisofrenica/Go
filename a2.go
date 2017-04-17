@@ -19,6 +19,12 @@ func main() {
 		fmt.Println(strconv.Itoa(x) + "e Impar")
 	}
 
+
+  if x:= 1; x > 0{  // declarando uma variavel dentro do if
+	   fmt.Println(num,"é maior que 0") // variavel x e só pode ser utilizada dentro do escopo do if
+		 // a variavel x que está no if e diferente da variavel x criada mais acima do codigo
+  }
+
 	rand.Seed(int64(time.Now().Nanosecond()))
 	var number int
 	number = rand.Int() % 3
